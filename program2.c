@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int a=7;
-  printf("the value of a is=%d",a++);
-  
+  int a,b,c;
+  a=5;
+  b=5;
+  c=a-b;
+  printf("the substraction of two numbers a&b=%d\n",c);
 }

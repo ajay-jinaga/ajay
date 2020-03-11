@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-  int a,b,r;
-  printf("enter the number");
-  scanf("%d",&r);
-  a=3,14*r*r;
-  printf("the area of circle=%d",a);
+  int a,b,c;
+  a=5;
+  b=5;
+  c=a*b;
+  printf("the multiplication of two numbers a&b=%d\n",c);
 }
-
